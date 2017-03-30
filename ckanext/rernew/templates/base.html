@@ -34,7 +34,9 @@ body{
 .account-masthead {
     background-color: #303030;
 }
-
+.masthead .nav-collapse {
+  padding-top: 0;
+}
 .navbar{
   background-color: #ddd;
 }
@@ -52,13 +54,17 @@ div[role="main"]{
   color:#c6cace;
 }
 
-.site-footer a{
+.site-footer a, .site-footer a:hover, .site-footer a:active, .site-footer a:visited{
   color:#65dde0;
 }
 
 .navbar.masthead{
   height: 48px;
   line-height: 48px;
+}
+
+.header-image {
+  display: none;
 }
 
 .homepage .module-search .module-content {
