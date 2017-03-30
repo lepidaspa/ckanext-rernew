@@ -16,12 +16,15 @@
 {% block header_logo%}
 &nbsp;
 {% endblock header_logo%}
+
 {% block header_site_search%}
 &nbsp;
 {% endblock header_site_search%}
 
 {% block header_site_navigation_tabs %}
+
 <style>.collapse{display:block;}</style>
+
   {{ h.build_nav_main(
     ('search', _('Dati')),
     ('organizations_index', _('Organizations')),
