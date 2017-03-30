@@ -106,10 +106,10 @@ a.tag:hover{
   background-image: none;
 }
 
-.wrapper .primary{
+/*.wrapper .primary{
   background-color: white;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-}
+}*/
 
 .wrapper .secondary{
   background-color: white;
@@ -149,8 +149,9 @@ h1,h2,h3,h4,h5{
   padding-bottom:6px;
 }
 .dataset-item>.dataset-content>div{
-  font-size: 19px;
+  font-size: 15px;
   padding-left: 10px;
+  padding-right: 10px;
   padding-bottom:6px;
 }
 
@@ -231,6 +232,14 @@ article.module{
     position: absolute;
     top: -3px;
     right: 10px;
+}
+
+.resource-item .description{
+    font-size:15px  
+}
+
+.resource-item .heading{
+    font-size:18px;
 }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
@@ -353,6 +362,47 @@ input[type=text]:focus, textarea:focus {
   padding-bottom:8px;
 }
 
+#field-order-by{
+  font-size:14px;
+}
+
+
+a.label:visited{
+  color:white;
+}
+
+a,a:hover,a:active,a:visited{
+  color:black;
+}
+
+.btn.btn-primary{
+  color:black !important;
+}
+
+.primary .module{
+  background-color: white;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+article h1, article h2, article h3, article h4, article h5, article h6, article ol, article p, article ul {
+ max-width: 100%;
+}
+
+.input-prepend .add-on, .input-prepend .btn {
+    margin-right: -1px;
+    height: 35px;
+}
+
+.form-search input, .form-inline input, .form-horizontal input, .form-search textarea, .form-inline textarea, .form-horizontal textarea, .form-search select, .form-inline select, .form-horizontal select, .form-search .help-inline, .form-inline .help-inline, .form-horizontal .help-inline, .form-search .uneditable-input, .form-inline .uneditable-input, .form-horizontal .uneditable-input, .form-search .input-prepend, .form-inline .input-prepend, .form-horizontal .input-prepend, .form-search .input-append, .form-inline .input-append, .form-horizontal .input-append {
+    font-size: 15px;
+    height: 35px;
+}
+
+.dataset-item:last-of-type {
+       border-bottom: inherit !important; 
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
 </style>
 {% endblock %}
 
